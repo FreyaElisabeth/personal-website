@@ -34,10 +34,9 @@ img {
 }
 
 .flexbox-column-max {
-  max-width: 60em;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -93,4 +92,5 @@ h1,
 .h1 {
   color: rgb(150, 12, 0);
   font-family: "Special Elite";
+  align-self: center;
 }

@@ -28,7 +28,7 @@ img {
 
 .flexbox-row {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }

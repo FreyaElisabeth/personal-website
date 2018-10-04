@@ -1,0 +1,79 @@
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffeeda;
+  background-image: linear-gradient(rgba(255, 238, 218, 0.5), rgba(255, 238, 218, 0.8)), url("../images/paper-annie-spratt-695479-unsplash.jpg");
+  background-origin: border-box;
+  background-size: cover;
+  background-attachment: scroll;
+  justify-content: center;
+  font-family: "Averia Serif Libre", cursive; }
+
+.flexbox-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.flexbox-column-max {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+.flexbox-column-img {
+  width: 20vw;
+  min-width: 10em;
+  max-width: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 2em; }
+
+.flexbox-column-text {
+  min-width: 15em;
+  max-width: 50em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+
+a {
+  color: #960c00;
+  text-decoration-line: none; }
+
+a:visited {
+  color: #640901; }
+
+a:hover {
+  color: #960c00;
+  text-decoration: underline; }
+
+header {
+  font-family: "Special Elite";
+  font-size: xx-large;
+  padding: 10vh; }
+
+nav {
+  font-family: "Special Elite";
+  font-size: large;
+  flex-wrap: wrap; }
+
+h1,
+.h1 {
+  color: #960c00;
+  font-family: "Special Elite";
+  align-self: center; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.portrait {
+  height: auto;
+  width: 150px;
+  flex: 1 1 80px; }
+
+/*# sourceMappingURL=style.css.map */

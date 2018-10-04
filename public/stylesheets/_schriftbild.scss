@@ -1,0 +1,32 @@
+a {
+  color: rgb(150, 12, 0);
+  text-decoration-line: none;
+}
+
+a:visited {
+  color: rgb(100, 9, 1);
+}
+
+a:hover {
+  color: rgb(150, 12, 0);
+  text-decoration: underline;
+}
+
+header {
+  font-family: "Special Elite";
+  font-size: xx-large;
+  padding: 10vh;
+}
+
+nav {
+  font-family: "Special Elite";
+  font-size: large;
+  flex-wrap: wrap;
+}
+
+h1,
+.h1 {
+  color: rgb(150, 12, 0);
+  font-family: "Special Elite";
+  align-self: center;
+}

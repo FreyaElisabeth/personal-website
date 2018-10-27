@@ -1,0 +1,63 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+header {
+  display: flex;
+  font-family: 'Special Elite';
+  font-size: xx-large;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Special Elite';
+  font-size: large;
+  justify-content: center;
+}
+
+section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  color: rgb(150, 12, 0);
+  text-decoration-line: none;
+
+  &:visited {
+    color: rgb(100, 9, 1);
+  }
+
+  &:hover {
+    color: rgb(150, 12, 0);
+    text-decoration: underline;
+  }
+}
+
+nav a {
+  margin: 0.25em 0.75em 0.25em 0.75em;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  max-width: 45em;
+}
+
+h1 {
+  color: rgb(150, 12, 0);
+  font-family: 'Special Elite';
+}

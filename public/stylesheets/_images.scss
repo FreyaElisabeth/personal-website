@@ -3,8 +3,8 @@ img {
   height: auto;
 }
 
-.portrait {
+#aboutMe img {
   height: auto;
   width: 150px;
-  flex: 1 1 80px;
+  border-radius: 50%;
 }

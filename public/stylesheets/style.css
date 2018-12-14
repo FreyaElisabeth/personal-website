@@ -1,4 +1,7 @@
 body {
+  background-image: radial-gradient(transparent, #ffeeda), url(../images/paper-annie-spratt-695479-unsplash.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
   box-sizing: border-box;
   font-family: 'Averia Serif Libre', cursive; }
 
